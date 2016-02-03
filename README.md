@@ -9,10 +9,12 @@ The aim is to facilitate working in platform-neutral C++/openGL without worrying
 
 A linux setup is to follow if I have the time.
 
-Code adapted from Greg Slabaugh's 2014 Computer Graphics classes at City University, London.
+Code adapted from Greg Slabaugh's 2014 Computer Graphics module at City University, London.
 
-OSX additional requirements:  
-Open Asset Import Library, libassimp (this can be installed using Homebrew)
-glm maths library (also via Homebrew)
+OSX additionally requires _at least_:    
+- [Open Asset Import Library](http://assimp.org), libassimp   
+- [glm maths library](https://www.opengl.org/sdk/libs/GLM/) 
 
-and possibly others - 
+
+These can be most easiy installed using the [Homebrew](http://brew.sh) package manager.
+
