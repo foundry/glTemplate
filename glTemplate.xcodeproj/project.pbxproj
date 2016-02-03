@@ -10,7 +10,6 @@
 		AB4586B318B0340200283A2C /* Compatibilty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB4586B118B0340200283A2C /* Compatibilty.cpp */; };
 		AB4586B618B0B92700283A2C /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4586B518B0B92700283A2C /* libfreeimage.a */; };
 		AB4586B818B0B93100283A2C /* libfreeimageplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4586B718B0B93100283A2C /* libfreeimageplus.a */; };
-		AB4586BA18B0B97100283A2C /* libassimp.3.0.255.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4586B918B0B97100283A2C /* libassimp.3.0.255.dylib */; };
 		AB4586F218B0BAC200283A2C /* dirtpile01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4586EF18B0BAC200283A2C /* dirtpile01.jpg */; };
 		AB4586F318B0BAC200283A2C /* grassfloor01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4586F018B0BAC200283A2C /* grassfloor01.jpg */; };
 		AB4586F418B0BAC200283A2C /* Tile41a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4586F118B0BAC200283A2C /* Tile41a.jpg */; };
@@ -41,13 +40,6 @@
 		ABCCF2E318B0FA420093B040 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2E218B0FA420093B040 /* notes.txt */; };
 		ABCCF2E618B0FD0B0093B040 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCCF2E418B0FD0B0093B040 /* Texture.cpp */; };
 		ABCCF2F918B1038E0093B040 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCCF2F718B1038E0093B040 /* Camera.cpp */; };
-		ABCCF30118B10A440093B040 /* mars-bk.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FA18B10A440093B040 /* mars-bk.png */; };
-		ABCCF30218B10A440093B040 /* mars-dn.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FB18B10A440093B040 /* mars-dn.png */; };
-		ABCCF30318B10A440093B040 /* mars-ft.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FC18B10A440093B040 /* mars-ft.png */; };
-		ABCCF30418B10A440093B040 /* mars-lt.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FD18B10A440093B040 /* mars-lt.png */; };
-		ABCCF30518B10A440093B040 /* mars-rt.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FE18B10A440093B040 /* mars-rt.png */; };
-		ABCCF30618B10A440093B040 /* mars-rt~.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF2FF18B10A440093B040 /* mars-rt~.png */; };
-		ABCCF30718B10A440093B040 /* mars-up.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF30018B10A440093B040 /* mars-up.png */; };
 		ABCCF30E18B10A520093B040 /* jajdarkland1_bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF30818B10A520093B040 /* jajdarkland1_bk.jpg */; };
 		ABCCF30F18B10A520093B040 /* jajdarkland1_dn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF30918B10A520093B040 /* jajdarkland1_dn.jpg */; };
 		ABCCF31018B10A520093B040 /* jajdarkland1_ft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF30A18B10A520093B040 /* jajdarkland1_ft.jpg */; };
@@ -73,6 +65,7 @@
 		ABCCF33F18B10AF90093B040 /* horse2.obj in Resources */ = {isa = PBXBuildFile; fileRef = ABCCF33C18B10AF90093B040 /* horse2.obj */; };
 		ABCCF34218B10B080093B040 /* OpenAssetImportMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCCF34018B10B080093B040 /* OpenAssetImportMesh.cpp */; };
 		ABCCF34618B10B2B0093B040 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCCF34418B10B2B0093B040 /* Game.cpp */; };
+		ABD805A01C62781D008203C5 /* libassimp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD8059F1C62781D008203C5 /* libassimp.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +83,6 @@
 		AB4586B218B0340200283A2C /* Compatibilty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compatibilty.h; sourceTree = "<group>"; };
 		AB4586B518B0B92700283A2C /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = libs/libfreeimage.a; sourceTree = "<group>"; };
 		AB4586B718B0B93100283A2C /* libfreeimageplus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimageplus.a; path = libs/libfreeimageplus.a; sourceTree = "<group>"; };
-		AB4586B918B0B97100283A2C /* libassimp.3.0.255.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.0.255.dylib; path = libs/libassimp.3.0.255.dylib; sourceTree = "<group>"; };
 		AB4586EF18B0BAC200283A2C /* dirtpile01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dirtpile01.jpg; path = ../OpenGLTemplate/resources/textures/dirtpile01.jpg; sourceTree = "<group>"; };
 		AB4586F018B0BAC200283A2C /* grassfloor01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grassfloor01.jpg; path = ../OpenGLTemplate/resources/textures/grassfloor01.jpg; sourceTree = "<group>"; };
 		AB4586F118B0BAC200283A2C /* Tile41a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tile41a.jpg; path = ../OpenGLTemplate/resources/textures/Tile41a.jpg; sourceTree = "<group>"; };
@@ -130,13 +122,6 @@
 		ABCCF2E518B0FD0B0093B040 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture.h; path = ../OpenGLTemplate/Texture.h; sourceTree = "<group>"; };
 		ABCCF2F718B1038E0093B040 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = ../OpenGLTemplate/Camera.cpp; sourceTree = "<group>"; };
 		ABCCF2F818B1038E0093B040 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = ../OpenGLTemplate/Camera.h; sourceTree = "<group>"; };
-		ABCCF2FA18B10A440093B040 /* mars-bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-bk.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-bk.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF2FB18B10A440093B040 /* mars-dn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-dn.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-dn.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF2FC18B10A440093B040 /* mars-ft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-ft.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-ft.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF2FD18B10A440093B040 /* mars-lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-lt.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-lt.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF2FE18B10A440093B040 /* mars-rt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-rt.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-rt.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF2FF18B10A440093B040 /* mars-rt~.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-rt~.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-rt~.png"; sourceTree = SOURCE_ROOT; };
-		ABCCF30018B10A440093B040 /* mars-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mars-up.png"; path = "OpenGLTemplate/resources/skyboxes/mars/mars-up.png"; sourceTree = SOURCE_ROOT; };
 		ABCCF30818B10A520093B040 /* jajdarkland1_bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jajdarkland1_bk.jpg; path = OpenGLTemplate/resources/skyboxes/jajdarkland1/jajdarkland1_bk.jpg; sourceTree = SOURCE_ROOT; };
 		ABCCF30918B10A520093B040 /* jajdarkland1_dn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jajdarkland1_dn.jpg; path = OpenGLTemplate/resources/skyboxes/jajdarkland1/jajdarkland1_dn.jpg; sourceTree = SOURCE_ROOT; };
 		ABCCF30A18B10A520093B040 /* jajdarkland1_ft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jajdarkland1_ft.jpg; path = OpenGLTemplate/resources/skyboxes/jajdarkland1/jajdarkland1_ft.jpg; sourceTree = SOURCE_ROOT; };
@@ -172,6 +157,7 @@
 		ABCCF34318B10B200093B040 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = OpenGLTemplate/Common.h; sourceTree = SOURCE_ROOT; };
 		ABCCF34418B10B2B0093B040 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = OpenGLTemplate/Game.cpp; sourceTree = SOURCE_ROOT; };
 		ABCCF34518B10B2B0093B040 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = OpenGLTemplate/Game.h; sourceTree = SOURCE_ROOT; };
+		ABD8059F1C62781D008203C5 /* libassimp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.dylib; path = ../../../../../../../../../usr/local/lib/libassimp.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,9 +165,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD805A01C62781D008203C5 /* libassimp.dylib in Frameworks */,
 				AB4586B618B0B92700283A2C /* libfreeimage.a in Frameworks */,
 				AB4586B818B0B93100283A2C /* libfreeimageplus.a in Frameworks */,
-				AB4586BA18B0B97100283A2C /* libassimp.3.0.255.dylib in Frameworks */,
 				ABA736A618AF9A71009C1293 /* OpenGL.framework in Frameworks */,
 				ABA7366F18AF9A0A009C1293 /* Cocoa.framework in Frameworks */,
 			);
@@ -202,9 +188,9 @@
 		AB4586B418B0B90500283A2C /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				ABD8059F1C62781D008203C5 /* libassimp.dylib */,
 				AB4586B518B0B92700283A2C /* libfreeimage.a */,
 				AB4586B718B0B93100283A2C /* libfreeimageplus.a */,
-				AB4586B918B0B97100283A2C /* libassimp.3.0.255.dylib */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
@@ -247,24 +233,9 @@
 			children = (
 				ABCCF2D918B0F9390093B040 /* Skybox.cpp */,
 				ABCCF2DA18B0F9390093B040 /* Skybox.h */,
-				AB4586DF18B0BA6600283A2C /* mars */,
 				AB4586D118B0BA3300283A2C /* jajdarkland */,
 			);
 			name = skyboxes;
-			sourceTree = "<group>";
-		};
-		AB4586DF18B0BA6600283A2C /* mars */ = {
-			isa = PBXGroup;
-			children = (
-				ABCCF2FA18B10A440093B040 /* mars-bk.png */,
-				ABCCF2FB18B10A440093B040 /* mars-dn.png */,
-				ABCCF2FC18B10A440093B040 /* mars-ft.png */,
-				ABCCF2FD18B10A440093B040 /* mars-lt.png */,
-				ABCCF2FE18B10A440093B040 /* mars-rt.png */,
-				ABCCF2FF18B10A440093B040 /* mars-rt~.png */,
-				ABCCF30018B10A440093B040 /* mars-up.png */,
-			);
-			name = mars;
 			sourceTree = "<group>";
 		};
 		AB4586EE18B0BAA800283A2C /* textures */ = {
@@ -539,20 +510,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCCF33E18B10AF90093B040 /* horse2.mtl in Resources */,
-				ABCCF30418B10A440093B040 /* mars-lt.png in Resources */,
 				ABCCF30E18B10A520093B040 /* jajdarkland1_bk.jpg in Resources */,
 				ABCCF31118B10A520093B040 /* jajdarkland1_lf.jpg in Resources */,
-				ABCCF30218B10A440093B040 /* mars-dn.png in Resources */,
 				ABA7367918AF9A0A009C1293 /* InfoPlist.strings in Resources */,
 				ABCCF33D18B10AF90093B040 /* horse.bmp in Resources */,
 				ABCCF2E318B0FA420093B040 /* notes.txt in Resources */,
 				ABCCF33F18B10AF90093B040 /* horse2.obj in Resources */,
-				ABCCF30318B10A440093B040 /* mars-ft.png in Resources */,
 				ABCCF33918B10AF10093B040 /* barrel02.obj in Resources */,
 				ABCCF30F18B10A520093B040 /* jajdarkland1_dn.jpg in Resources */,
 				ABCCF31318B10A520093B040 /* jajdarkland1_up.jpg in Resources */,
 				ABCCF33718B10AF10093B040 /* barrel02.jpg in Resources */,
-				ABCCF30518B10A440093B040 /* mars-rt.png in Resources */,
 				ABCCF31218B10A520093B040 /* jajdarkland1_rt.jpg in Resources */,
 				ABCCF33818B10AF10093B040 /* barrel02.mtl in Resources */,
 				ABCCF31018B10A520093B040 /* jajdarkland1_ft.jpg in Resources */,
@@ -560,10 +527,7 @@
 				ABAADCA618B49B6500E693D1 /* MainMenu.xib in Resources */,
 				ABA7367F18AF9A0A009C1293 /* Credits.rtf in Resources */,
 				AB4586F418B0BAC200283A2C /* Tile41a.jpg in Resources */,
-				ABCCF30718B10A440093B040 /* mars-up.png in Resources */,
 				AB4586F218B0BAC200283A2C /* dirtpile01.jpg in Resources */,
-				ABCCF30618B10A440093B040 /* mars-rt~.png in Resources */,
-				ABCCF30118B10A440093B040 /* mars-bk.png in Resources */,
 				AB4586F318B0BAC200283A2C /* grassfloor01.jpg in Resources */,
 				ABAADCA018B499E200E693D1 /* sphereShader.frag in Resources */,
 				ABAADCA118B499E200E693D1 /* sphereShader.vert in Resources */,
@@ -760,7 +724,8 @@
 				INFOPLIST_FILE = "glTemplate_Apple/glTemplate-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Volumes/jHome/_new/opengl/3-pipeline/Tunnel_1/Tunnel/Tunnel",
+					"${SOURCE_ROOT}",
+					/usr/local/lib,
 				);
 				PRODUCT_NAME = glTemplate;
 				WRAPPER_EXTENSION = app;
@@ -787,7 +752,8 @@
 				INFOPLIST_FILE = "glTemplate_Apple/glTemplate-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Volumes/jHome/_new/opengl/3-pipeline/Tunnel_1/Tunnel/Tunnel",
+					"${SOURCE_ROOT}",
+					/usr/local/lib,
 				);
 				PRODUCT_NAME = glTemplate;
 				WRAPPER_EXTENSION = app;
