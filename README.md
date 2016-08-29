@@ -13,7 +13,8 @@ Code adapted from Greg Slabaugh's 2014 Computer Graphics module at City Universi
 
 OSX additionally requires _at least_:    
 - [Open Asset Import Library](http://assimp.org), libassimp   
-- [glm maths library](https://www.opengl.org/sdk/libs/GLM/) 
+- [glm maths library](https://www.opengl.org/sdk/libs/GLM/)   
+- [FreeImage](http://freeimage.sourceforge.net)
 
 
 These can be most easiy installed using the [Homebrew](http://brew.sh) package manager.
